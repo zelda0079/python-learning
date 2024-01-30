@@ -19,7 +19,7 @@ while True:
     text2=res.status_code
     #print(text1)
     stock_num=re.findall('"f12":"(.*?)","f13"', text1)
-    if not stock_num:
+    if not stock_num: #沒股票時BREAK
         break
     #print(stock_num)
     stock_name=re.findall('"f14":"(.*?)","f15"', text1)
@@ -33,7 +33,7 @@ while True:
     yesday_close=re.findall('"f16":(.*?),"f17"', text1)
     #print(yesday_close)
 
-    for i in range(len(stock_num)):
+    for i in range(len(stock_num)):   #取得每一版的股票資訊
         #print(count, stock_num[i], stock_name[i], stock_up_precentage[i], stock_up[i], today_open[i], yesday_close[i] )
         table1.append([count, stock_num[i], stock_name[i], stock_up_precentage[i]+'%', stock_up[i], today_open[i], yesday_close[i]])
         count+=1
@@ -43,8 +43,8 @@ while True:
     #if pn>=30000:
     #   break
     
-
-table2=pandas.DataFrame(table1)
+#開始寫入EXCEL
+table2=pandas.DataFrame(table1)  
 print(table2)
-# pip install openpyxl
+# 運行前請看安裝 pip install openpyxl
 table2.to_excel('stock_test.xlsx',index=False , header=['順序', '股號', '公司名', '漲跌百分比', '漲跌', '今開', '昨收'])

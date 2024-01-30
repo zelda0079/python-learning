@@ -1,6 +1,6 @@
-import requests
-import re
-import pandas
+import requests  # 運行前請看安裝 pip install requests
+import re  # 運行前請看安裝 pip install re, 正則表達式
+import pandas  # 運行前請看安裝 pip install openpyxl, pip install pandas, 處理EXCEL模組
 
 table1=[]
 pn=1 #開始第幾頁

@@ -11,8 +11,7 @@ pn=1  #初始頁
 pn2=10 #看你想要爬幾頁
 count=1
 pn2=pn2*2  #20即10版
-# 京東搜索商品網址, 找search, 第1條就是
-# 尋找方法: 去https://quote.eastmoney.com/center/gridlist.html#hs_a_board，按F12，NETWORK，放大鏡，找其中一個股票名字
+# 京東搜索商品網址, 按F12, 找search, 第1條就是, 不過其實和你所在的網址差不多, 只是少一點參數
 # 複製Request URL, User-Agent, Cookie
 keyword1='筆記本'
 keyword1=urllib.parse.quote(keyword1)

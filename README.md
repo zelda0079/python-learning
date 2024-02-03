@@ -8,3 +8,9 @@ python爬蟲A股
 https://quote.eastmoney.com/center/gridlist.html#hs_a_board
 
 ---
+
+python爬京東 網址 https://search.jd.com/Search?keyword={keyword1}99&enc=utf-8&wq={keyword1}
+PYTHON爬京東商品, 可能有反爬或奇怪的情況無法運作
+2024年1月30日, 京東1版(page1&2)有30個商店
+
+---

@@ -4,16 +4,17 @@
 各資料夾內有說明
 
 
-資料來源:
-部份是湖南好課優選, 部份是青咖汇, 都是免費網課, 然後課程很貴不建議上, 學PYTHON最好自學, 網課下載再加速看
-我是用貓抓找M3U8, 再將M3U8連接放去VLC轉錄成影片檔案
-青咖汇的網課則要轉換一下低延遲和普通, 讓貓抓得到FLV連結, 再抓去給VLC轉換
-
-還有部份是AI+自己寫
+資料來源:<br>
+部份是湖南好課優選, 部份是青咖汇, 都是免費網課, 然後課程很貴不建議上, 學PYTHON最好自學, 網課下載再加速看<br>
+我是用貓抓找M3U8, 再將M3U8連接放去VLC轉錄成影片檔案<br>
+青咖汇的網課則要轉換一下低延遲和普通, 讓貓抓得到FLV連結, 再抓去給VLC轉換<br>
+<br>
+還有部份是AI+自己寫<br>
 
 -------------------------------------------------------------------
 
-PYTHON學習資源
-https://github.com/OpenDocCN/lxthw-zh/tree/master/docs
-笨方法學PYTHON系列
-名字帶有PY的資料夾都是
+PYTHON學習資源<br>
+https://github.com/OpenDocCN/lxthw-zh/tree/master/docs<br>
+或是https://lxthw.flygon.net/<br>
+笨方法學PYTHON系列<br>
+名字帶有PY的資料夾都是<br>

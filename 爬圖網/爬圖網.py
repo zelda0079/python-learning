@@ -3,7 +3,8 @@ import re
 
 
 def get_pic(num):
-
+    if not os.path.exists('pics'):
+        os.makedirs('pics')
 
     cookies = {
         XXXXXX

@@ -10,6 +10,7 @@ https://v3-web.douyinvod.com/4ebdefa7c46b05574b575bbdb5c105a7/66019d07/video/tos
 再回去上面例子user的網址
 找這關鍵字
 找到是下面requests的連結
+對相關項目右鍵COPY->CURL，放去curlconverter得到相關的header和cookie
 再觀察JSON去提取影片
 '''
 headers = {
